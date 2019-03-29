@@ -4,7 +4,7 @@ My own personal metasploit files and configuations. Use with care!
 
 # autopwn_browser.rc:
 
-This runs 120 different known browser attacks on all devices, once an infected device makes contact then its game over. Here is after the modules have initialized:
+**This runs 120 different known browser attacks on all devices, once an infected device makes contact then its game over. Here is after the modules have initialized:**
 
 ``` Metasploit Ready
 [*] Auxiliary module running as background job 0.
@@ -73,13 +73,13 @@ Exploits
 
 ```
 
-As you can see this bad boy is ready armed with 120 different attacks and if you've missed an update on your browser then just visiting this page you would become a victim.
+## As you can see this bad boy is ready armed with 120 different attacks and if you've missed an update on your browser then just visiting this page you would become a victim.
 
-## UPDATE ALL THE TIME!!!
+### UPDATE ALL THE TIME!!!
 
-# Our beef hit:
+**Our beef hit**
 
-As you can see below the beef javascript attack allowed me to redirect my iPhone's browser to the "BrowserAutoPwn URL" listed at the bottom of the running metasploit modules:
+## As you can see below the beef javascript attack allowed me to redirect my iPhone's browser to the "BrowserAutoPwn URL" listed at the bottom of the running metasploit modules:
 
 ``` beef:
 [20:07:59][*] 300 modules enabled.
@@ -111,8 +111,8 @@ As you can see below the beef javascript attack allowed me to redirect my iPhone
 [20:13:29][*] Hooked browser [id:1, ip:192.168.1.78] has executed instructions (status: UNKNOWN) from command module [cid:2, mod: 43, name:'Redirect Browser']
 ```
 
-# After math:
-The exploits will take long to run depending on your setting of the "MaxExploitCount" so if you want to be quicker its best to had pick the ones to use and not use so many.
+#### After math:
+## The exploits will take long to run depending on your setting of the "MaxExploitCount" so if you want to be quicker its best to had pick the ones to use and not use so many.
 ```
 [*] Server started.
 [*] No cookie received for 192.168.1.78, resorting to headers hash.
