@@ -112,7 +112,7 @@ Exploits
 ```
 
 #### After math:
-## The exploits will take long to run depending on your setting of the "MaxExploitCount" so if you want to be quicker its best to had pick the ones to use and not use so many.
+**The exploits will take long to run depending on your setting of the "MaxExploitCount" so if you want to be quicker its best to had pick the ones to use and not use so many.
 ```
 [*] Server started.
 [*] No cookie received for 192.168.1.78, resorting to headers hash.
@@ -149,31 +149,31 @@ Exploits
 
 ```
 
-# Unfortantly for now I was unable to successfully exploit and get a meterpreter shell into my latest iOS version iPhone... Let try this same technique on a Windows laptop or Linux
+**Unfortantly for now I was unable to successfully exploit and get a meterpreter shell into my latest iOS version iPhone... Let try this same technique on a Windows laptop or Linux
 
-# First let's say we've embedded our beef attack into a website or just simply tricked someone into click a link.
+**First let's say we've embedded our beef attack into a website or just simply tricked someone into click a link.
 
 
-# my evil link: https://tinyurl.com/nwbgmv2
+**my evil link: https://tinyurl.com/nwbgmv2
 
-# Doesn't look evil right? I used tiny url to turn: http://192.168.1.80:3000/demos/basic.html into https://tinyurl.com/nwbgmv2
+**Doesn't look evil right? I used tiny url to turn: http://192.168.1.80:3000/demos/basic.html into https://tinyurl.com/nwbgmv2
 
-# But both go to the same place!
+**But both go to the same place!
 
-# I will be demo'ing this with screenshots so you can actually see what is happening:
+**I will be demo'ing this with screenshots so you can actually see what is happening:
 
-# The link the tiny URL sent our browser was to our beef attack page:
+**The link the tiny URL sent our browser was to our beef attack page:
 ![](https://cloudtsgroup.com/hit1.png)
 
-# This shows out IP even along with the iPhone from earlier, however our laptop is still "hooked"!
+**This shows out IP even along with the iPhone from earlier, however our laptop is still "hooked"!
 ![](https://cloudtsgroup.com/hit2.png)
 
 
-# Now lets just look at all the evil we can do here, the white circles means the attack probably will not work, the red ones means there are chances it will alert our victim and the green means no sign of detection.
+**Now lets just look at all the evil we can do here, the white circles means the attack probably will not work, the red ones means there are chances it will alert our victim and the green means no sign of detection.
 ![](https://cloudtsgroup.com/hit3.png)
 
 
-# I'm going to show you other things we can do from here such as pose as gmail and trick you to login, get your keystrokes but the purpose of this module is to redirect you to our metasploit! Then we will have complete system level access... Feel free to check out all the other different modules, You can even write your own:
+**I'm going to show you other things we can do from here such as pose as gmail and trick you to login, get your keystrokes but the purpose of this module is to redirect you to our metasploit! Then we will have complete system level access... Feel free to check out all the other different modules, You can even write your own:
 ![](https://cloudtsgroup.com/hit_beef_firefox.png)
 ![](https://cloudtsgroup.com/hit4.png)
 ![](https://cloudtsgroup.com/hit5.png)
@@ -181,11 +181,12 @@ Exploits
 ![](https://cloudtsgroup.com/hit7.png)
 ![](https://cloudtsgroup.com/hit8.png)
 
-# As you can see we are wanting to redirect our victims browser to are payload, You shouldn't have 120 payloads running like I did because this is only a way to help anyone who doesn't understand it. Imagine if I had that one that hasn't been discovered... It would be so fast we wouldn't even see it redirect.
+**As you can see we are wanting to redirect our victims browser to are payload, You shouldn't have 120 payloads running like I did because this is only a way to help anyone who doesn't understand it. Imagine if I had that one that hasn't been discovered... It would be so fast we wouldn't even see it redirect.
 
 ![](https://cloudtsgroup.com/auto1.png)
 ![](https://cloudtsgroup.com/auto2.png)
 ![](https://cloudtsgroup.com/auto_re.png)
 
-# To prevent this from ever happening who to be to disable javascript however this will break alot of sites. I would recommend enabling it by a case by case bases depending on the site because even those little fast popups could be trying to do something as simple as this and you would never know
+**To prevent this from ever happening who to be to disable javascript however this will break alot of sites. I would recommend enabling it by a case by case bases depending on the site because even those little fast popups could be trying to do something as simple as this and you would never know
 
+## I'll write up a part 2 with metasploit use and how you can inject beef ## OR **metasploit through WiFi injection and even embed it into images,PDFs,Word doc,ZIP and the most recent WinRAR
